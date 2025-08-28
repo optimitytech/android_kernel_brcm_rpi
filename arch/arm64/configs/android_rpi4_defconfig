@@ -1561,7 +1561,9 @@ CONFIG_HAMRADIO=y
 # Packet Radio protocols
 #
 # CONFIG_AX25 is not set
-# CONFIG_CAN is not set
+CONFIG_CAN=y
+CONFIG_CAN_ISOTP=y
+CONFIG_CAN_MCP251X=y
 CONFIG_BT=y
 CONFIG_BT_BREDR=y
 # CONFIG_BT_RFCOMM is not set
